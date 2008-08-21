@@ -176,17 +176,22 @@ This is our current programming roadmap, detailing when each release will be bro
 
 =0.10.x Series=
 
- * 0.10.x (Bug squashing + alpha/beta + rc series)
+ * Creation of the in-game help system and in-game statistics.
+
+=0.11.x Series=
+
+ * Bug squashing 
+ * Alpha/beta + rc series are incorporated as 1.0-beta1 etc.
 
 ==REQUIREMENTS FOR STABLE RELEASES (1.0, 2.0)==
-- No outstanding bugs
-- Successor to x.100-final.
-- Completion of the help system.
+ *  No outstanding bugs
+ *  Successor to x.100-final.
+ *  Completion of the help system.
 
 ==RELEASE RELEASE==
-- Translated in various languages, at least French.
-- Distribution as a CD?
-- Distribution of printed manual.
+ *  Translated in various languages, at least French.
+ *  Distribution as a CD?
+ *  Distribution of printed manual.
 
 ===2.0 RELEASE ROADMAP===
 As of now, only developpement of a network. Would allow users to buy from each other, talk/chat to others, play minigames, etc. Maybe gamecube version, by starting off with the use of an emulator like Dolphin, and an IDE like EclipseGC.
