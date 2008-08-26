@@ -20,8 +20,8 @@ This is our current programming roadmap, detailing when each release will be bro
  * 0.0.8a (We test with items you can't pick up, how jack will react to them)
  * 0.0.8b (Tests with people, who move around on different "tiles" (that aren't visible))
  * 0.0.8c (Tests with animals, who move around freely)
- * 0.0.8d (Tests with items that can be pushed)
- * 0.0.8e (Tests with items that can be pulled)
+ * 0.0.8d (Tests with items that can be pushed/pulled)
+ * 0.0.8e (Tests with items that can be picked up?)
  * 0.0.8f (Tests with items like stumps, and their respective values)
  * 0.0.8g (more tests, stabilisation of current code)
  * 0.0.8h (attempt to mix all of the above together)
@@ -33,13 +33,13 @@ This is our current programming roadmap, detailing when each release will be bro
  * 0.1.0b (The branch's stable release, with .8h's features mixed in for more testing with it.)
  * 0.1.0.1 (The first artifical NPC character, Yasu, is introduced, as a character who walks around near a building, his house.)
  * 0.1.0.1b (Yasu begins to get some dialogue; he's whatever. Interacts with Jack)
- * 0.1.0.2 (Yasu becomes a fully developped character, who has friendship points
+ * 0.1.0.2 (Yasu becomes a fully developped character, who has a very simple friendship points system (talking raises points to change dialogue))
  * 0.1.1.0 (Doors appear in the field)
  * 0.1.1.1 (We try getting doors to open and auto-close)
  * 0.1.1.2 (Developpement of Jack's first house)
  * 0.1.1.3 (We link the two together)
  * 0.1.1.4 (Same as the above, except in this release the door should make the field yield to the house, and vice versa)
- * 0.1.1.5 (TimeStopper is implemented)
+ * 0.1.1.5 (TimeStopper is implemented, or possibly a save system)
  * 0.1.1.6 (Introduction of NPCs and animals in a building)
  * 0.1.1.7 (Items in buildings)
  * 0.1.1.8 (Multiple buildings, and initial development of the river)
@@ -75,6 +75,11 @@ This is our current programming roadmap, detailing when each release will be bro
  * 0.1.2.3.5 (General testing release)
  * 0.1.2.3.6 (Creating the finalised product, a vegetable at the end of the process)
  * 0.1.2.3.7 (Taking into account that a day without water makes the plant retarded by a day)
+
+*IMPORTANT*
+
+At this time, item giving needs to be implemented. Individual characters and objects can be given items, and will give a reaction based on that. For characters it's a dialogue and an increase or decrease in FP/LP, for the shipping bin and internal counter is incremented. Hopefully this will be modular as the rest of the code should be, so that it simply refers to an external (plaintext) file to determine how to react to who, or how to deal with shipping values.
+
  * 0.1.2.3.8 (Eating function is implemented)
  * 0.1.2.3.9 (Shipping box in built, doesn't do anything but count whatever you have in it)
  * 0.1.2.4.1 (Creation of the shipping subsystem)
@@ -128,7 +133,7 @@ This is our current programming roadmap, detailing when each release will be bro
 
 =0.3.x Series=
 
- * 0.3.1.x (House upgrades)
+ * 0.3.1.x (House upgrades?)
  * 0.3.2.x (Home furnishings)
  * 0.3.3.x (On the topic of electricity, as well as weather)
  * 0.3.4.x (Preprations for marriage, and the things it brings)
@@ -142,13 +147,11 @@ This is our current programming roadmap, detailing when each release will be bro
 
 =0.4.x Series=
 
- * 0.4.0.x (Game feels "done" at this point for simple farming)
+(Game feels "done" at this point for simple farming)
  * 0.4.0.1 (Horse races)
  * 0.4.1.x (Any other festivals and events, random events are developped now.)
  * 0.4.2.x (Dialogues should be reworked at this point; they should be more or less 100% "perfect")
- * 0.4.3.1 (Creation of an installer for windows)
- * 0.4.3.3 (Creation of an installer for OSX) 
- * 0.4.3.5 (Packaging of the linux version)
+ * 0.4.3.1 (Creation of an installer for windows) (Creation of an installer for OSX) (Packaging of the linux version)
 (And methods to further package quickly for all OS and archs)
  * 0.4.4.x (Possible addition of the cat)
  * 0.4.5.x (Addition of wild animals)
@@ -156,7 +159,7 @@ This is our current programming roadmap, detailing when each release will be bro
 
 =0.5.x Series=
 
- * 0.5.x (The whole "love" subsystem and associated mechanics)
+ * 0.5.x (The Emotion Engine subsystem and associated mechanics, things like love points, friends points, recieving and giving items, etc.)
 
 =0.6.x Series=
 
