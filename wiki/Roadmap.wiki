@@ -9,12 +9,12 @@ This is our current programming roadmap, detailing when each release will be bro
 
 =0.0.x Series=
 
- * 0.0.1 (To develop a basic window in Pyglet, to see what can and can't be done)
- * 0.0.2 (To add in menus if possible, a documentation browser feature for later)
- * 0.0.3 (Creation of a small "box", 4x4 square, and a basic sprite)
- * 0.0.4 (Figuring out fuctions of the sprite, to map keyboard keys to movement)
- * 0.0.4b (optimisations, if necessary)
- * 0.0.5 (Use of a much larger surface, use of maps possibly, or tiles. this will be the farmland)
+ * _0.0.1 (To develop a basic window in Pyglet, to see what can and can't be done)_
+ * _0.0.2 (To add in menus if possible, a documentation browser feature for later)_
+ * _0.0.3 (Creation of a small "box", 4x4 square, and a basic sprite)_
+ * _0.0.4 (Figuring out fuctions of the sprite, to map keyboard keys to movement)_
+ * _0.0.4b (optimisations, if necessary)_
+ * *0.0.5 (Use of a much larger surface, use of maps possibly, or tiles. this will be the farmland)*
  * 0.0.6 (A mailbox and closed shack is added in, testing unmovable-object interaction)
  * 0.0.7 (More UOs are added, namely what will become the barn, a tree, chicken coop, etc.)
  * 0.0.8a (We test with items you can't pick up, how jack will react to them)
