@@ -1,0 +1,1 @@
+OpenHM is a 2D video game programmed with Python (and Pyglet) inspired by the Harvest Moon series by Marvelous Entertainement, namely the Gameboy Advance games. The project is a free software one, released under GPLv2 or GPLv3, with most of the content released under similar licenses.
